@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:40");
+body {
+  padding: 0 10%;
+  background-color: black;
+  color: #FFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 100vh;
+  white-space: nowrap; 
+  font-weight: bold;
+}
+
+.blinking-cursor {
+  user-select: none;
+  animation: blink 1s steps(2, start) infinite; }
+
+@keyframes blink {
+  to {
+    visibility: hidden; } }
